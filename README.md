@@ -35,7 +35,7 @@ Este script implementa as seguintes operações de processamento de áudio:
 Assim como no script de processamento de imagens, este script também registra informações em um arquivo de log ***log_audio.csv***.
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------
 <div style="background-color: #f2f2f2; padding: 10px;">
 
 **`Arquivos de Log`**
@@ -58,7 +58,7 @@ Os arquivos de log ( *log_image.csv* | *log_audio.csv* ) irão incluir as seguin
 
 </div>
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------
 
 #### `log_analysis.ipynb`
 
