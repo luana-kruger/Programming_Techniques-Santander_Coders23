@@ -14,7 +14,7 @@ Cada script aborda diferentes aspectos do processamento de imagens e áudios, pr
 
 #### `image_process.ipynb`
 
-Este script realiza diversas operações de processamento de imagens, incluindo alteração de cor de fundo, rotação, inversão horizontal, deslocamento e zoom. Além disso, o script também registra informações sobre as operações realizadas em um arquivo de log ***log_image.csv***.
+Este script realiza diversas operações de processamento de imagens, incluindo rotação, inversão horizontal, deslocamento e zoom. Além disso, o script também registra informações sobre as operações realizadas em um arquivo de log ***log_image.csv***.
 
 #### `audio_process.ipynb` 
 
@@ -44,13 +44,13 @@ Os arquivos de log ( *log_image.csv* | *log_audio.csv* ) irão incluir as seguin
 
 - **Data e hora**: Registrar a data e hora em que o processamento foi realizado;
 
-- **Tipo de processamento**: Indicar o tipo de processamento de imagem/áudio realizado (rotação, mudança de cor de fundo, corte, concatenação, etc.);
+- **Tipo de processamento**: Indicar o tipo de processamento de imagem/áudio realizado (rotação, deslocamento, corte, concatenação, etc.);
 
-- **Tempo de processamento**: Indicar o tempo de processamento;
+- **Tempo de processamento**: Indicar o tempo de processamento em milissegundos;
 
 - **Nome do arquivo de imagem**: Indicar o nome do arquivo de imagem/áudio processado;
 
-- **Tamanho do arquivo**: Indicar o tamanho em MB do arquivo processado;
+- **Tamanho do arquivo**: Indicar o tamanho em KB do arquivo processado;
 
 - **Resultado do processamento**: Indicar se o processamento foi bem-sucedido ou se ocorreu algum erro;
 
@@ -69,16 +69,21 @@ Este script realiza análises dos arquivos de log de processamento de imagens e 
 - **Tempo médio de processamento por tipo de processamento** (identificação das manipulações que exigem mais performance);
 - **Arquivos com tempo de processamento abaixo da média**;
 - **Comparação de desempenho entre tipos de processamento** (comparação do tempo médio de processamento entre diferentes tipos para identificar os mais demorados e que podem precisar de otimização);
-- **Tipos de erros mais frequentes**;
 - **Análise de correlação entre tamanho do arquivo e tempo de processamento** (verificação de correlação entre o tamanho do arquivo e o tempo de processamento);
 - **Análise de frequência por tipo de processamento** (identificação dos tipos de processamento mais frequentes e se há algum padrão relacionado a eles);
 - **Análise de erros por tipo de processamento** (verificação se há tipos de processamento com mais erros e investigação das causas desses erros).
 
 &nbsp;
 
+> **Observação**:
+--------------------------------------------
+Para a criação do arquivo de log do processamento das imagens ( *log_image.csv* ), utilizamos um conjunto de dados de imagens obtido do TensorFlow. O conjunto de dados utilizado é o de imagens de flores (*flower_photos*), especificamente a pasta '*dandelion*' desse conjunto. Essa pasta contém 898 arquivos de imagem no formato JPG. Para preencher o arquivo de log, utiliza-se uma lista de parâmetros (ângulos, deslocamentos, fatores de zoom) e uma lista de operações de processamento (rotação, inversão horizontal, deslocamento, zoom) para aplicar transformações aleatórias às imagens. Alguns parâmetros são preenchidos com valores que causam erros propositalmente.
+
+&nbsp;
+
 ## Índice
 
-[... FAZER ÍNDICE ...]
+[   ... FAZER ÍNDICE ...   ]
 
 &nbsp;
 
