@@ -1,0 +1,7 @@
+Data e Hora,Tipo de Processamento,Tempo de Processamento,Nome do Arquivo,Tamanho do Arquivo,Resultado do Processamento,Mensagem de Erro
+2024-03-08 18:32:33.238900,Carregamento de Imagem,0:00:00,image_test.png,12973,Sucesso,
+2024-03-08 18:32:33.301122,Mudança de Cor de Fundo,0:00:00.002334,image_test.png,12973,Sucesso,
+2024-03-08 18:32:33.362394,Rotação de Imagem,0:00:00.012962,image_test.png,12973,Sucesso,
+2024-03-08 18:32:33.406803,Inversão Horizontal,0:00:00,image_test.png,12973,Sucesso,
+2024-03-08 18:32:33.466135,Deslocamento de Imagem,0:00:00.008641,image_test.png,12973,Sucesso,
+2024-03-08 18:32:33.507049,Zoom de Imagem,0:00:00.003115,image_test.png,12973,Sucesso,

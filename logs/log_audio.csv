@@ -1,0 +1,2 @@
+Data e Hora,Tipo de Processamento,Tempo de Processamento,Nome do Arquivo,Tamanho do Arquivo,Resultado do Processamento,Mensagem de Erro
+2024-03-08 19:44:37.879476,Leitura de Arquivo WAV,0:00:00.000516,audio_test.wav,962756,Sucesso,
