@@ -64,9 +64,8 @@ Os arquivos de log ( *log_image.csv* | *log_audio.csv* ) irão incluir as seguin
 
 Este script realiza análises dos arquivos de log de processamento de imagens e áudios usando a biblioteca Pandas. As análises incluem:
 
-- **Tempo de processamento médio por tipo** (imagem ou áudio);
-- **Distribuição do tempo de processamento** (visualização da distribuição do tempo de processamento para identificar outliers ou padrões incomuns);
 - **Tempo médio de processamento por tipo de processamento** (identificação das manipulações que exigem mais performance);
+- **Distribuição do tempo de processamento** (visualização da distribuição do tempo de processamento para identificar outliers ou padrões incomuns);
 - **Arquivos com tempo de processamento abaixo da média**;
 - **Comparação de desempenho entre tipos de processamento** (comparação do tempo médio de processamento entre diferentes tipos para identificar os mais demorados e que podem precisar de otimização);
 - **Análise de correlação entre tamanho do arquivo e tempo de processamento** (verificação de correlação entre o tamanho do arquivo e o tempo de processamento);
