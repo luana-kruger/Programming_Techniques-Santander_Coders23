@@ -1,2 +1,8 @@
 Data e Hora,Tipo de Processamento,Tempo de Processamento,Nome do Arquivo,Tamanho do Arquivo,Resultado do Processamento,Mensagem de Erro
-2024-03-08 19:44:37.879476,Leitura de Arquivo WAV,0:00:00.000516,audio_test.wav,962756,Sucesso,
+2024-03-14 03:19:16,Leitura de Arquivo WAV,19.107,audio_test.wav,940.19140625,Sucesso,
+2024-03-14 03:19:17,Inversão de Áudio,0.0,audio_test.wav,940.19140625,Sucesso,
+2024-03-14 03:19:17,Convolução de Áudio,1.3699999999999999,audio_test.wav,940.19140625,Sucesso,
+2024-03-14 03:19:18,Recorte de Áudio,0.0,audio_test.wav,940.19140625,Sucesso,
+2024-03-14 03:19:19,Concatenação de Áudio,0.0,audio_test.wav,940.19140625,Sucesso,
+2024-03-14 03:19:20,Mistura de Áudio,0.0,audio_test.wav,940.19140625,Sucesso,
+2024-03-14 03:19:22,Filtragem de Áudio,50.95,audio_test.wav,940.19140625,Sucesso,
