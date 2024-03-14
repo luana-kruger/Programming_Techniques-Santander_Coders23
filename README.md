@@ -22,15 +22,21 @@ Este script implementa as seguintes operações de processamento de áudio:
 
    - **Leitura de arquivo WAV**: Utiliza a função `scipy.io.wavfile.read()` para carregar um arquivo WAV em uma variável numpy array, contendo os dados de áudio e a taxa de amostragem;
 
+   - **Inversão de áudio**: Inverte o áudio original;
+
    - **Convolução de áudio**: A convolução é uma operação matemática comum em processamento de sinais que combina duas funções para produzir uma terceira, representando como uma é afetada pela outra ao longo do tempo;
 
    - **Normalização de áudio**: Normaliza o áudio para ajustar os níveis de amplitude;
 
    - **Corte de áudio**: Recorta parte do áudio, selecionando apenas uma parte específica;
 
-   - **Concatenação de áudio**: Junta dois ou mais arquivos de áudio em um único arquivo;
+   - **Concatenação de áudio**: Junta dois arquivos de áudio em um único arquivo;
 
-   - **Aplicação de filtros**: Aplica filtros, como passa-baixa ou passa-alta, para alterar as características do som.
+   - **Mistura de áudio**: Mistura dois arquivos de áudio em um único arquivo;
+
+   - **Filtragem de áudio**: Aplica filtros, para redução de ruído no áudio original.
+
+   - **Espectograma**: Criação de um espectograma para analizar a amplitude de um áudio
 
 Assim como no script de processamento de imagens, este script também registra informações em um arquivo de log ***log_audio.csv***.
 
@@ -95,12 +101,12 @@ Para a criação do arquivo de log do processamento das imagens ( *log_image.csv
   - Função para criar ou abrir arquivo de log
   - Função para registrar log
   - Função Ler arquivo WAV
-  - Função Convolução do áudio
+  - Função Convolução de áudio
   - Função Normalização de áudio
   - Função Corte de áudio
   - Função Concatenação de áudio
-  - Função Filtragem
-  - Função Exibir imagem
+  - Função Filtragem de áudio
+  - Espectograma
 
 - Script log_analysis.ipynb
   - Carregar arquivo de log
