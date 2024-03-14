@@ -82,8 +82,46 @@ Para a criação do arquivo de log do processamento das imagens ( *log_image.csv
 
 ## Índice
 
-[   ... FAZER ÍNDICE ...   ]
+- Script image_process.ipynb
+  #### - Função para criar ou abrir arquivo de log
+  #### - Função para registrar log
+  #### - Função carregar imagem
+  #### - Função Rotacionar imagem
+  #### - Função Inverter horizontalmente a imagem
+  #### - Função Deslocar a imagem
+  #### - Função Zoom
+  #### - Teste
 
+
+- Script audio_process.ipynb
+  #### - Função para criar ou abrir arquivo de log
+  #### - Função para registrar log
+  #### - Função Ler arquivo WAV
+  #### - Função Convolução do áudio
+  #### - Função Normalização de áudio
+  #### - Função Corte de áudio
+  #### - Função Concatenação de áudio
+  #### - Função Filtragem
+  #### - Função Exibir imagem
+  #### - Teste
+
+
+- Script log_analysis.ipynb
+  #### - Carregar arquivo de log
+  #### - Tempo de processamento médio por tipo (imagem ou áudio)
+  #### - Distribuição do tempo de processamento
+  #### - Arquivos com tempo de processamento abaixo da média
+  #### - Análise de correlação
+  #### - Análise de frequência por tipo de processamento
+  #### - Análise de erros por tipo de processamento
+  #### - Exemplo de uso
+  #### - Tempo de processamento médio por tipo - em milissegundos
+  #### - Distribuição do tempo de processamento
+  #### - Arquivos com tempo de processamento abaixo da média
+  #### - Comparação de desempenho entre tipos de processamento
+  #### - Análise de correlação entre tamanho do arquivo e tempo de processamento
+  #### - Análise de frequência por tipo de processamento
+  #### - Análise de erros por tipo de processamento
 &nbsp;
 
 ## Autores
