@@ -109,13 +109,20 @@ Para a criação do arquivo de log do processamento das imagens ( *log_image.csv
   - Espectograma
 
 - Script log_analysis.ipynb
-  - Carregar arquivo de log
-  - Tempo de processamento médio por tipo (imagem ou áudio)
-  - Distribuição do tempo de processamento
-  - Arquivos com tempo de processamento abaixo da média
-  - Análise de correlação
+  - Carregar arquivo de log (pandas.read_csv())
+  - Tempo de processamento médio por tipo (imagem ou áudio) (groupby() e mean())
+  - Distribuição do tempo de processamento (matplotlib.pyplot.hist(), matplotlib.pyplot.gca().set_yticklabels(), matplotlib.pyplot.xlabel(), matplotlib.pyplot.ylabel(), matplotlib.pyplot.title() e matplotlib.pyplot.show())
+  - Arquivos com tempo de processamento abaixo da média (mean())
+  - Análise de correlação (corr())
+  - Análise de frequência por tipo de processamento (value_counts())
+  - Análise de erros por tipo de processamento (pandas.unique(), matplotlib.pyplot.subplots(), ax.bar(), ax.set_xlabel(), ax.set_ylabel(), ax.set_title(), ax.set_xticks(), ax.set_xticklabels() e matplotlib.pyplot.show())
+  - Arquivos com tempo de processamento abaixo da média (mean())
+  - Análise de correlação entre tamanho do arquivo e tempo de processamento
   - Análise de frequência por tipo de processamento
+  - Análise de resultado por tipo de processamento
   - Análise de erros por tipo de processamento
+
+
 
 &nbsp;
 
