@@ -96,6 +96,7 @@ Para a criação do arquivo de log do processamento das imagens ( *log_image.csv
   - Função Inverter horizontalmente a imagem
   - Função Deslocar a imagem
   - Função Zoom
+  - Função Exibir imagem
 
 - Script audio_process.ipynb
   - Função para criar ou abrir arquivo de log
@@ -103,9 +104,10 @@ Para a criação do arquivo de log do processamento das imagens ( *log_image.csv
   - Função Ler arquivo WAV
   - Função Convolução de áudio
   - Função Normalização de áudio
-  - Função Corte de áudio
-  - Função Concatenação de áudio
-  - Função Filtragem de áudio
+  - Função Recorte de áudio
+  - Função Concatenar Áudios
+  - Função Misturar Áudios
+  - Função Filtrar Ruído de Áudio
   - Espectograma
 
 - Script log_analysis.ipynb
